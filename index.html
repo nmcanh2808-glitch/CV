@@ -7,7 +7,10 @@
     <title>Nguyễn Minh Cảnh | UI/UX Designer Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Alberto:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+    </style>
     <style>
         :root {
             --bg-primary: #F8DED3;
@@ -143,10 +146,11 @@
         }
 
         .logo {
-            font-family: 'Alberto', sans-serif;
+            font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: 1.55rem;
             letter-spacing: 0.18em;
             color: var(--text-primary);
+            font-weight: 700;
         }
 
         nav {
@@ -296,8 +300,9 @@
         }
 
         .hero-title {
-            font-family: 'Alberto', sans-serif;
+            font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: clamp(3rem, 5vw, 5.2rem);
+            font-weight: 700;
             line-height: 0.95;
             letter-spacing: -0.05em;
             max-width: 10ch;
@@ -688,7 +693,7 @@
 
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(4, minmax(0, 1fr));
+            grid-template-columns: repeat(5, minmax(0, 1fr));
             gap: 1.6rem;
         }
 
@@ -720,6 +725,7 @@
         }
 
         .skill-name {
+            font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: 1.05rem;
             font-weight: 700;
             color: var(--text-primary);
@@ -807,9 +813,11 @@
         }
 
         .project-copy h3 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: 1.45rem;
             margin-bottom: 0.75rem;
             color: var(--text-primary);
+            font-weight: 700;
         }
 
         .project-copy span {
@@ -874,9 +882,11 @@
         }
 
         .modal-title {
+            font-family: 'Plus Jakarta Sans', sans-serif;
             font-size: clamp(2rem, 2.5vw, 2.4rem);
             color: var(--text-primary);
             margin-bottom: 0.75rem;
+            font-weight: 700;
         }
 
         .modal-tag {
@@ -1275,7 +1285,7 @@
             }
 
             .skills-grid {
-                grid-template-columns: repeat(2, minmax(0, 1fr));
+                grid-template-columns: repeat(3, minmax(0, 1fr));
             }
 
             .hobbies-grid {
@@ -1348,10 +1358,13 @@
 
             .about-grid,
             .contact-grid,
-            .skills-grid,
             .gallery-grid,
             .hobbies-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .skills-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
             }
 
             .skill-card,
@@ -1474,6 +1487,10 @@
                         <div class="skill-name">Illustrator</div>
                     </div>
                     <div class="skill-card fade-up">
+                        <div class="skill-icon">🎬</div>
+                        <div class="skill-name">Premiere Pro</div>
+                    </div>
+                    <div class="skill-card fade-up">
                         <div class="skill-icon">📹</div>
                         <div class="skill-name">Content Creation</div>
                     </div>
@@ -1483,7 +1500,7 @@
             <section class="section projects" id="projects">
                 <div class="section-intro">Projects</div>
                 <h2 class="section-title">Featured work</h2>
-                <p class="section-subtitle">Từ thiết kế giao diện đến trải nghiệm sản phẩm, hai dự án nổi bật thể hiện phong cách UI/UX ấm áp và hiện đại.</p>
+                <p class="section-subtitle">Từ thiết kế giao diện đến trải nghiệm sản phẩm, bốn dự án nổi bật thể hiện khả năng UI/UX, Game Design, và 3D Digital Graphics ấm áp và hiện đại.</p>
 
                 <div class="projects-container">
                     <div class="gallery-grid">
@@ -1501,6 +1518,22 @@
                                 <span>3D Design</span>
                                 <h3>In 3D</h3>
                                 <p>Dự án thiết kế đối tượng 3D theo phong cách nghệ thuật, tối ưu cho in ấn và trình diễn giới thiệu.</p>
+                            </div>
+                        </article>
+                        <article class="project-card fade-up" onclick="openModal(2)" tabindex="0" role="button" aria-label="Open project Game 2D">
+                            <div class="project-visual"><span>🎮</span></div>
+                            <div class="project-copy">
+                                <span>Game Design</span>
+                                <h3>Game 2D</h3>
+                                <p>Trải nghiệm game playful với tính tương tác cao, giao diện thân thiện và cơ chế gameplay mượt mà.</p>
+                            </div>
+                        </article>
+                        <article class="project-card fade-up" onclick="openModal(3)" tabindex="0" role="button" aria-label="Open project Website Interface Design">
+                            <div class="project-visual"><span>💻</span></div>
+                            <div class="project-copy">
+                                <span>UI/UX Design</span>
+                                <h3>Website Interface Design</h3>
+                                <p>Thiết kế giao diện website hiện đại, tối ưu cho responsive design và tương tác người dùng trơn tru.</p>
                             </div>
                         </article>
                     </div>
@@ -1658,6 +1691,30 @@
                     { icon: '🧠', title: 'Concept', caption: 'Ý tưởng 3D xuất phát từ cảm hứng organics.' },
                     { icon: '🛠️', title: 'Model', caption: 'Kiểm soát chi tiết và cấu trúc bề mặt.' },
                     { icon: '🎨', title: 'Render', caption: 'Hiệu ứng ánh sáng tinh tế và mềm mại.' }
+                ]
+            },
+            {
+                title: 'Game 2D',
+                category: 'Game Design',
+                description: 'Trải nghiệm game playful với tính tương tác cao, giao diện thân thiện và cơ chế gameplay mượt mà. Dự án tập trung vào UI/UX gaming và user engagement.',
+                process: 'Conceptualization → Game mechanics design → UI mockups → Interactive prototype → Polish & optimization.',
+                tools: ['Figma', 'Photoshop', 'Illustrator', 'Game Engine Design'],
+                slides: [
+                    { icon: '🎮', title: 'Main Menu', caption: 'Giao diện chính với design playful và invite-to-action mạnh.' },
+                    { icon: '⚡', title: 'Gameplay UI', caption: 'HUD design tối giản nhưng đầy đủ thông tin cho người chơi.' },
+                    { icon: '🏆', title: 'Result Screen', caption: 'Màn hình kết quả với animation kỉ niệm và feedback interactive.' }
+                ]
+            },
+            {
+                title: 'Website Interface Design',
+                category: 'UI/UX Design',
+                description: 'Thiết kế giao diện website hiện đại, tối ưu cho responsive design và tương tác người dùng trơn tru. Kết hợp minimalism với artistic elements.',
+                process: 'User research → Information architecture → Wireframing → Visual design → Prototype & testing → Development handoff.',
+                tools: ['Figma', 'Adobe XD', 'Photoshop', 'Responsive Design System'],
+                slides: [
+                    { icon: '🏠', title: 'Homepage Hero', caption: 'Hero section ấn tượng với CTA rõ ràng và visual hierarchy hoàn hảo.' },
+                    { icon: '📱', title: 'Responsive Layouts', caption: 'Thiết kế responsive tối ưu cho desktop, tablet và mobile.' },
+                    { icon: '✨', title: 'Interactive Components', caption: 'Component library với micro-interactions và smooth transitions.' }
                 ]
             }
         ];
