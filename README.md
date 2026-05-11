@@ -647,4 +647,4 @@ Use:
 ⚠️ IMPORTANT:
 The uploaded images should feel like premium showcase assets inside a professional UI/UX portfolio, not like a simple image dump.
 
-# B4: Em yêu cầu VS Code giữ lại bộ prompt hiện tại và chỉ thay đổi các icon hình ảnh hiển thị ở mục projects mà VS Code tự thêm, em đã sử dụng công cụ Dremina AI tạo ảnh và thay thế chúng.
+# B4: Em yêu cầu VS Code giữ lại bộ prompt hiện tại và chỉ thay đổi các icon hình ảnh hiển thị ở mục projects mà VS Code tự thêm, em đã sử dụng công cụ Dremina AI tạo ảnh và thay thế chúng. Ngoài ra, em yêu cầu VS Code thêm hiệu ứng rơi trên nền trang web để tăng sự hút cho CV.
