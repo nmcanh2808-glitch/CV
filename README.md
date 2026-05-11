@@ -519,3 +519,132 @@ Inspired by:
 
 ⚠️ IMPORTANT:
 The portfolio should feel like a modern creative designer showcase with premium UI/UX presentation and smooth interaction design.
+
+# B3: Yêu cầu chat bổ sung thêm: viết prompt để thay đổi hình ảnh hiển thị của phần project thành ảnh Design mà tôi đã drop vào thư mục images của github. Hãy tạo cho tôi một bộ prompt để argent có thể thiết kế ra website như vậy.
+
+Update the existing portfolio website project gallery to use the design images that were uploaded into the GitHub "images" folder.
+
+⚠️ IMPORTANT:
+Replace all placeholder project thumbnails with the real uploaded images from the GitHub images directory.
+
+━━━━━━━━━━━━━━━━━━━
+🖼 PROJECT IMAGE SYSTEM
+━━━━━━━━━━━━━━━━━━━
+
+Use images from:
+`/images/`
+
+Apply uploaded images to these project sections:
+
+1. Thiết kế Bookmark
+2. In 3D
+3. Game 2D
+4. Website Interface Design
+
+━━━━━━━━━━━━━━━━━━━
+📂 IMAGE HANDLING
+━━━━━━━━━━━━━━━━━━━
+
+Requirements:
+
+* Automatically load images from the images folder
+* Use proper image paths
+* Keep responsive image scaling
+* Maintain image quality
+* Prevent image distortion
+
+Example:
+
+* /images/bookmark-1.jpg
+* /images/3d-1.jpg
+* /images/game2d-1.jpg
+* /images/ui-design-1.jpg
+
+━━━━━━━━━━━━━━━━━━━
+🎨 PROJECT CARD UPDATE
+━━━━━━━━━━━━━━━━━━━
+
+Each project card should:
+
+* Display the uploaded design image as thumbnail
+* Use cover-fit image scaling
+* Rounded corners
+* Smooth hover zoom effect
+* Overlay animation
+
+Overlay should show:
+
+* Project title
+* Category
+* Short description
+
+━━━━━━━━━━━━━━━━━━━
+✨ HOVER & ANIMATION
+━━━━━━━━━━━━━━━━━━━
+
+Hover effects inspired by premium Behance/Webflow portfolios:
+
+* Slight image zoom
+* Smooth overlay fade
+* Floating card movement
+* Shadow elevation
+* Cursor interaction feeling
+
+Transition style:
+
+* Smooth
+* Premium
+* Elegant
+* Modern
+
+━━━━━━━━━━━━━━━━━━━
+🖼 MODAL / GALLERY VIEW
+━━━━━━━━━━━━━━━━━━━
+
+When clicking a project image:
+
+* Open fullscreen modal
+* Display all related uploaded images
+* Create image slider/gallery
+* Add next/previous navigation
+* Smooth popup animation
+* Background blur effect
+
+Gallery layout:
+
+* Clean
+* Spacious
+* Modern creative portfolio style
+
+━━━━━━━━━━━━━━━━━━━
+📱 RESPONSIVE IMAGE DESIGN
+━━━━━━━━━━━━━━━━━━━
+
+Requirements:
+
+* Responsive grid layout
+* Proper image cropping
+* Consistent card ratio
+* Mobile-friendly gallery
+* Adaptive image scaling
+
+━━━━━━━━━━━━━━━━━━━
+⚙️ TECHNICAL REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━
+
+* HTML + CSS + JavaScript
+* Use semantic image structure
+* Lazy loading optional
+* Optimized rendering
+* Smooth animation performance
+
+Use:
+
+* object-fit: cover
+* CSS grid or masonry layout
+* Transition animations
+
+⚠️ IMPORTANT:
+The uploaded images should feel like premium showcase assets inside a professional UI/UX portfolio, not like a simple image dump.
+
+# B4: Em yêu cầu VS Code giữ lại bộ prompt hiện tại và chỉ thay đổi các icon hình ảnh hiển thị ở mục projects mà VS Code tự thêm, em đã sử dụng công cụ Dremina AI tạo ảnh và thay thế chúng.
