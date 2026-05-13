@@ -1,6 +1,16 @@
+# Nguyễn Minh Cảnh
 # CV — Portfolio Website
-# Danh sách công cụ AI mà em đã sử dụng trong bài là (Chatgpt, Dreamina)
-# B1: Em kêu chatgpt viết một bộ prompt như sau: bạn là một chuyên gia về UI/UX, hãy tạo cho tôi một portfolio chuyên nghiệp bao gồm Html + csss. Brightness mode đựa vào 3 màu chủ đạo này#F8DED3 , #FDC5B8 , #DEA5AE. Dark mode dựa vào 3 màu chủ đạo này #183282 , #6C9EB3 , #FCE997, có nút thay đổi theme ở đầu trang. Tagline: “Thiết kế trải nghiệm đơn giản, tỏa sáng khí chất riêng.”. About Me: Nguyễn Minh Cảnh, là một sinh viên tại trường GDU, hiện đang học năm 2 của nghành CNNT - Đồ Họa Kỹ Thuật Số, số điện thoại 09874634528 và ngày sinh (28.08.06). Tôi đang tập trung vào một dự án thiết kế UI/UX và game. Skill: Design (Figma, Photoshop, AI), sáng tạo nội dung. Dự án: Thiết kế Bookmark, in 3D, tại phần này tôi muốn bạn tạo ra album ảnh để trưng bày sản phẩm hay dự án. Hobbies: đá banh và đi xem phim, chơi game, nấu ăn. Contact Me: email (nguyencanh0392751543), số điện thoại 09874634528, thêm khung để nhập email và số điện thoại vào phần contact, để tôi có thể nhận và liên hệ với họ. Thêm hiệu ứng hover và chuyển động như trang web https://jomor-design-2019.webflow.io/. Hãy tạo cho tôi một bộ prompt để argent có thể thiết kế ra website như vậy. Và có được bộ prompt này:
+# Link video hướng dẫn thuyết minh: 
+# Link dự án GitHub: https://github.com/nmcanh2808-glitch/CV
+# Link trang web sản phẩm: 
+# Danh sách công cụ AI: 
+Em đã sử dụng trong bài: Chat GPT tạo prompt, Dreamina AI tạo hình ảnh, Figma AI tối ưu hóa UI/UX trang web.
+# Ý tưởng tổng thể: 
+Em lấy 3 màu chủ đạo ở brightness mode là 3 màu mà em yêu thích, dựa trên một thảo nguyên xanh ngát là nơi thích hợp để một chú capybara thư giản, còn về phần Dark Mode em dựa theo 3 màu chủ đạo được lấy cảm hứng từ bức tranh "Bầu trời đầy sao" của họa sĩ Van Gogh, đây là một trong các tác phẩm em vô cùng yêu thích của họa sĩ Van Gogh. Để tạo ra một bầu trời êm ái dễ nhìn khi nhà tuyển dụng đọc vào ban đêm. Về các hình ảnh có trong phần Projects, như em đã trình bày trước đó. Nó được tạo ra bằng công cụ Dreamina AI.
+# Giai đoạn 1: Lên ý tưởng.
+- Ý tưởng ban đầu: Là một website porfolio thông thường, nhưng em lại muốn nó mang theo màu sắc và sở thích của em. Đó là Capybara(Chuột lang nước), chắc không ai mà không biết tới sự dễ thương và tài ngoại giao của giống loài chuột nước này. Em rất yêu thích các chú chuột lang nước vì vẻ mặt vô tri và lạc quan tới mắc cười. Và em rất thích các tác phẩm của họa sĩ Van Gogh (các tác phẩm điển hình của ông là: tám bức tranh hoa hướng dương, bầu trời đầy sao,...). Đó là lý do vì sao em lại muốn thực hiện hóa hai sở thích ấy vào trong một website do mình tự tạo. 
+# Giai đoạn 2: Thực hiện tạo website 
+  kêu chatgpt viết một bộ prompt như sau: bạn là một chuyên gia về UI/UX, hãy tạo cho tôi một portfolio chuyên nghiệp bao gồm Html + csss. Brightness mode đựa vào 3 màu chủ đạo này#F8DED3 , #FDC5B8 , #DEA5AE. Dark mode dựa vào 3 màu chủ đạo này #183282 , #6C9EB3 , #FCE997, có nút thay đổi theme ở đầu trang. Tagline: “Thiết kế trải nghiệm đơn giản, tỏa sáng khí chất riêng.”. About Me: Nguyễn Minh Cảnh, là một sinh viên tại trường GDU, hiện đang học năm 2 của nghành CNNT - Đồ Họa Kỹ Thuật Số, số điện thoại 09874634528 và ngày sinh (28.08.06). Tôi đang tập trung vào một dự án thiết kế UI/UX và game. Skill: Design (Figma, Photoshop, AI), sáng tạo nội dung. Dự án: Thiết kế Bookmark, in 3D, tại phần này tôi muốn bạn tạo ra album ảnh để trưng bày sản phẩm hay dự án. Hobbies: đá banh và đi xem phim, chơi game, nấu ăn. Contact Me: email (nguyencanh0392751543), số điện thoại 09874634528, thêm khung để nhập email và số điện thoại vào phần contact, để tôi có thể nhận và liên hệ với họ. Thêm hiệu ứng hover và chuyển động như trang web https://jomor-design-2019.webflow.io/. Hãy tạo cho tôi một bộ prompt để argent có thể thiết kế ra website như vậy. Và có được bộ prompt này:
 
 Create a professional and modern UI/UX portfolio website using HTML, CSS, and JavaScript only.
 
@@ -331,7 +341,22 @@ Optional:
 ⚠️ FINAL GOAL:
 The portfolio must feel like a high-end creative UI/UX designer website with artistic personality, smooth motion, elegant typography, and interactive project galleries.
 
-# B2: Trang web vẫn còn thiếu thông tin về skill và project. Đồng thời, em yêu cầu chat thay đổi lại font chữ theo sở thích như: viết prompt bổ sung thêm phần project (game 2D, website interface design). Bổ sung Skill (Premier). Đổi font chữ hiện tại thành Font việt hóa Alberto Regular. Hãy tạo cho tôi một bộ prompt để argent có thể thiết kế ra website như vậy. Nhận lại bộ prompt sau: 
+# Giai đoạn 3: Tối ưu UI/UX.
+Em dùng tới figma AI để tối ưu lại phần thiết kế UI/UX, theo các tiêu chí như sau:
++ UI/UX gọn gàng, tối giản.
++ Hoạt ảnh hiện đại.
++ Hiệu ứng ánh sáng dịu nhẹ.
++ đáp ứng cho mọi thiết bị (PC, Phone).
++ Thêm hoạt ảnh Thêm hoạt ảnh di chuột mượt mà.
++ Cải thiện thứ bậc kiểu chữ.
++ Sử dụng bố cục thẻ hiện đại.
++ Thêm hiệu ứng glassmorphism.
++ Cải thiện khoảng cách và căn chỉnh, cải thiện sự hài hòa màu sắc.
++ Thêm thanh điều hướng hiện đại,thêm hiệu ứng chuyển tiếp hoạt ảnh giữa các phần.
++ Thay đổi màu chủ đạo của Brightness Mode thành 3 màu này #6FAF5F, #3F6B3A, #D9C46B.
+![alt text](<images/UI UX.png>)
+# Giai đoạn 4: Thay đổi bổ sung bộ prompt.
+Đây là yêu cầu mà đã nhờ chat viết prompt bổ sung thêm phần project (game 2D, website interface design). Bổ sung Skill (Premier). Đổi font chữ hiện tại thành Font việt hóa Alberto Regular. Hãy tạo cho tôi một bộ prompt để argent có thể thiết kế ra website như vậy.
 Enhance the existing portfolio website by adding new projects, updating the skills section, and changing the typography system.
 
 ━━━━━━━━━━━━━━━━━━━
@@ -519,7 +544,7 @@ Inspired by:
 ⚠️ IMPORTANT:
 The portfolio should feel like a modern creative designer showcase with premium UI/UX presentation and smooth interaction design.
 
-# B3: Yêu cầu chat bổ sung thêm: viết prompt để thay đổi hình ảnh hiển thị của phần project thành ảnh Design mà tôi đã drop vào thư mục images của github. Hãy tạo cho tôi một bộ prompt để argent có thể thiết kế ra website như vậy.
+Yêu cầu chat bổ sung thêm tính năng để thay đổi hình ảnh hiển thị của phần project thành ảnh Design mà tôi đã drop vào thư mục images của github. Hãy tạo cho tôi một bộ prompt để argent có thể thiết kế ra website như vậy.
 
 Update the existing portfolio website project gallery to use the design images that were uploaded into the GitHub "images" folder.
 
@@ -646,6 +671,6 @@ Use:
 ⚠️ IMPORTANT:
 The uploaded images should feel like premium showcase assets inside a professional UI/UX portfolio, not like a simple image dump.
 
-# B4: Em yêu cầu VS Code giữ lại bộ prompt hiện tại và chỉ thay đổi các icon hình ảnh hiển thị ở mục projects mà VS Code tự thêm, em đã sử dụng công cụ Dreamina AI tạo ảnh và thay thế chúng. Ngoài ra, em yêu cầu VS Code thêm hiệu ứng rơi trên nền trang web để tăng sự hút cho CV.
-
-# Về thiết kế tổng thể em lấy 3 màu chủ đạo ở brightness mode là 3 màu mà em yêu thích, dựa trên như một chú capybara ("em rất thích capybara nên nếu thầy để ý ở phần web by sẽ thấy biệt danh của em ạ!"), còn về phần Dark Mode em dựa theo 3 màu chủ đạo được lấy cảm hứng từ bức tranh "Bầu trời đầy sao" của họa sĩ Van Gogh. Để tạo ra một bầu trời êm ái dễ nhìn khi nhà tuyển dụng đọc vào ban đêm. Về các hình ảnh có trong phần Projects, như em đã trình bày trước đó. Nó được tạo ra bằng công cụ Dreamina AI.
+# Giai đoạn 5: Tạo ảnh bằng Dreamina AI.
+Em đã sử dụng công cụ Dreamina AI tạo ảnh và thay thế chúng. Ngoài ra, em yêu cầu VS Code thêm hiệu ứng rơi trên nền trang web để tăng sự hút cho CV.
+![alt text](DreaminaAI.png) 
