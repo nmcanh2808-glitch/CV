@@ -673,4 +673,6 @@ The uploaded images should feel like premium showcase assets inside a profession
 
 # Giai đoạn 5: Tạo ảnh bằng Dreamina AI.
 Em đã sử dụng công cụ Dreamina AI tạo ảnh và thay thế chúng. Ngoài ra, em yêu cầu VS Code thêm hiệu ứng rơi trên nền trang web để tăng sự hút cho CV.
-![alt text](DreaminaAI.png) 
+![alt text](DreaminaAI.png). 
+# Giai đoạn 6: Hoàn thiện sản phẩm.
+Bằng các công cụ AI trợ giúp để thực hiện hóa Website theo ý tưởng của mình. Và đây là kết quả sản phẩm của em.
