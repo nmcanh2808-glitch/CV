@@ -166,19 +166,26 @@
             background: rgba(108, 158, 179, 0.14);
         }
 
+        .hero,
+        .section {
+            position: relative;
+            overflow: visible;
+        }
+
         .floating-bubble {
             position: absolute;
             border-radius: 50%;
-            background: rgba(255, 255, 255, 0.3);
-            backdrop-filter: blur(20px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.18);
+            backdrop-filter: blur(18px);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            box-shadow: 0 18px 45px rgba(15, 23, 42, 0.06);
             display: flex;
             align-items: center;
             justify-content: center;
             overflow: hidden;
-            animation: float-bubble 8s ease-in-out infinite;
-            z-index: 1;
+            animation: float-bubble 10s ease-in-out infinite;
+            pointer-events: none;
+            z-index: 0;
         }
 
         .floating-bubble img {
@@ -186,45 +193,61 @@
             height: 100%;
             object-fit: cover;
             border-radius: 50%;
-            opacity: 0.8;
+            opacity: 0.7;
+            filter: blur(0.3px);
         }
 
         .bubble-small {
-            width: 60px;
-            height: 60px;
+            width: 44px;
+            height: 44px;
             animation-duration: 10s;
         }
 
         .bubble-medium {
-            width: 80px;
-            height: 80px;
+            width: 64px;
+            height: 64px;
             animation-duration: 12s;
-            animation-delay: 2s;
+            animation-delay: 1s;
         }
 
         .bubble-large {
-            width: 100px;
-            height: 100px;
+            width: 84px;
+            height: 84px;
             animation-duration: 14s;
-            animation-delay: 4s;
+            animation-delay: 2s;
         }
 
         @keyframes float-bubble {
             0%, 100% {
-                transform: translateY(0) scale(1) rotate(0deg);
-                opacity: 0.4;
+                transform: translate(0, 0) scale(1);
+                opacity: 0.28;
             }
             25% {
-                transform: translateY(-15px) scale(1.05) rotate(2deg);
-                opacity: 0.6;
+                transform: translate(4px, -10px) scale(1.02);
+                opacity: 0.32;
             }
             50% {
-                transform: translateY(-30px) scale(1.1) rotate(-1deg);
-                opacity: 0.8;
+                transform: translate(-5px, -18px) scale(1.04);
+                opacity: 0.34;
             }
             75% {
-                transform: translateY(-15px) scale(1.05) rotate(1deg);
-                opacity: 0.6;
+                transform: translate(3px, -10px) scale(1.01);
+                opacity: 0.30;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            .floating-bubble {
+                opacity: 0.22;
+            }
+            .bubble-large {
+                display: none;
+            }
+        }
+
+        @media (max-width: 720px) {
+            .floating-bubble {
+                display: none;
             }
         }
 
@@ -1314,12 +1337,9 @@
 
         <main>
             <section class="hero" id="home">
-                <div class="floating-bubble bubble-small" style="top: 15%; left: 10%;"><img src="images/Capy1.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-medium" style="top: 25%; right: 15%;"><img src="images/Capy2.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-large" style="bottom: 20%; left: 5%;"><img src="images/Capy3.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-small" style="top: 40%; left: 20%;"><img src="images/Capy4.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-medium" style="top: 60%; right: 25%;"><img src="images/Capy5.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-small" style="bottom: 30%; right: 10%;"><img src="images/Capy6.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-small" style="top: 8%; left: 4%;"><img src="images/Capy1.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-small" style="bottom: 16%; right: 6%;"><img src="images/Capy2.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-medium" style="top: 18%; right: 4%;"><img src="images/Capy5.jpg" alt="Capybara" /></div>
                 <div class="hero-left fade-up">
                     <div class="hero-artboard">
                         <div class="hero-illustration">
@@ -1344,10 +1364,9 @@
             </section>
 
             <section class="section" id="about">
-                <div class="floating-bubble bubble-small" style="top: 20%; right: 10%;"><img src="images/Capy5.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-medium" style="bottom: 25%; left: 15%;"><img src="images/Capy6.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-large" style="top: 50%; right: 20%;"><img src="images/Capy1.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-small" style="bottom: 10%; right: 5%;"><img src="images/Capy3.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-small" style="top: 10%; right: 4%;"><img src="images/Capy5.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-small" style="bottom: 18%; left: -3%;"><img src="images/Capy6.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-medium" style="bottom: 12%; right: 8%;"><img src="images/Capy1.jpg" alt="Capybara" /></div>
                 <div class="section-header fade-up">
                     <div>
                         <div class="section-title">About Me</div>
@@ -1389,10 +1408,9 @@
             </section>
 
             <section class="section" id="skills">
-                <div class="floating-bubble bubble-small" style="top: 15%; left: 5%;"><img src="images/Capy1.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-medium" style="bottom: 20%; right: 10%;"><img src="images/Capy2.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-large" style="top: 40%; right: 15%;"><img src="images/Capy4.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-small" style="bottom: 5%; left: 10%;"><img src="images/Capy6.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-small" style="top: 8%; left: 3%;"><img src="images/Capy1.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-small" style="bottom: 18%; right: 6%;"><img src="images/Capy2.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-medium" style="top: 34%; right: 4%;"><img src="images/Capy4.jpg" alt="Capybara" /></div>
                 <div class="section-header fade-up">
                     <div>
                         <div class="section-title">Skills</div>
@@ -1424,10 +1442,9 @@
             </section>
 
             <section class="section projects" id="projects">
-                <div class="floating-bubble bubble-small" style="top: 10%; right: 8%;"><img src="images/Capy1.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-medium" style="bottom: 15%; left: 12%;"><img src="images/Capy2.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-large" style="top: 50%; right: 5%;"><img src="images/Capy3.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-small" style="bottom: 40%; right: 20%;"><img src="images/Capy4.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-small" style="top: 8%; right: 4%;"><img src="images/Capy1.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-small" style="bottom: 16%; left: -3%;"><img src="images/Capy2.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-medium" style="bottom: 12%; right: 8%;"><img src="images/Capy3.jpg" alt="Capybara" /></div>
                 <div class="section-header fade-up">
                     <div>
                         <div class="section-title">Projects</div>
@@ -1479,10 +1496,9 @@
             </section>
 
             <section class="section" id="experience">
-                <div class="floating-bubble bubble-small" style="top: 10%; right: 15%;"><img src="images/Capy3.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-medium" style="bottom: 30%; left: 10%;"><img src="images/Capy4.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-large" style="top: 60%; left: 20%;"><img src="images/Capy5.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-small" style="bottom: 10%; right: 5%;"><img src="images/Capy1.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-small" style="top: 10%; right: 4%;"><img src="images/Capy3.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-small" style="bottom: 16%; left: -3%;"><img src="images/Capy4.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-medium" style="top: 54%; left: 4%;"><img src="images/Capy5.jpg" alt="Capybara" /></div>
                 <div class="section-header fade-up">
                     <div>
                         <div class="section-title">Experience</div>
@@ -1512,10 +1528,9 @@
             </section>
 
             <section class="section" id="hobbies">
-                <div class="floating-bubble bubble-small" style="top: 20%; left: 8%;"><img src="images/Capy5.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-medium" style="bottom: 25%; right: 12%;"><img src="images/Capy6.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-large" style="top: 45%; right: 18%;"><img src="images/Capy2.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-small" style="bottom: 15%; left: 15%;"><img src="images/Capy4.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-small" style="top: 8%; left: 4%;"><img src="images/Capy5.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-small" style="bottom: 18%; right: 6%;"><img src="images/Capy6.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-medium" style="top: 40%; right: 4%;"><img src="images/Capy2.jpg" alt="Capybara" /></div>
                 <div class="section-header fade-up">
                     <div>
                         <div class="section-title">Hobbies</div>
@@ -1543,10 +1558,9 @@
             </section>
 
             <section class="section" id="contact">
-                <div class="floating-bubble bubble-small" style="top: 15%; right: 10%;"><img src="images/Capy1.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-medium" style="bottom: 20%; left: 15%;"><img src="images/Capy2.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-large" style="top: 50%; left: 20%;"><img src="images/Capy3.jpg" alt="Capybara" /></div>
-                <div class="floating-bubble bubble-small" style="bottom: 10%; right: 8%;"><img src="images/Capy5.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-small" style="top: 12%; right: 6%;"><img src="images/Capy1.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-small" style="bottom: 18%; left: -3%;"><img src="images/Capy2.jpg" alt="Capybara" /></div>
+                <div class="floating-bubble bubble-medium" style="top: 42%; left: 4%;"><img src="images/Capy3.jpg" alt="Capybara" /></div>
                 <div class="section-header fade-up">
                     <div>
                         <div class="section-title">Contact Me</div>
