@@ -6,9 +6,9 @@
 # Danh sách công cụ AI: 
 Em đã sử dụng trong bài: Chat GPT tạo prompt, Dreamina AI tạo hình ảnh, Figma AI tối ưu hóa UI/UX trang web.
 # Ý tưởng tổng thể: 
-Em lấy 3 màu chủ đạo ở brightness mode là 3 màu mà em yêu thích, dựa trên một thảo nguyên xanh ngát là nơi thích hợp để một chú capybara thư giản, còn về phần Dark Mode em dựa theo 3 màu chủ đạo được lấy cảm hứng từ bức tranh "Bầu trời đầy sao" của họa sĩ Van Gogh, đây là một trong các tác phẩm em vô cùng yêu thích của họa sĩ Van Gogh. Để tạo ra một bầu trời êm ái dễ nhìn khi nhà tuyển dụng đọc vào ban đêm. Về các hình ảnh có trong phần Projects, như em đã trình bày trước đó. Nó được tạo ra bằng công cụ Dreamina AI.
+  Em lấy 3 màu chủ đạo ở brightness mode là 3 màu mà em yêu thích, dựa trên một thảo nguyên xanh ngát là nơi thích hợp để một chú capybara thư giản, còn về phần Dark Mode em dựa theo 3 màu chủ đạo được lấy cảm hứng từ bức tranh "Bầu trời đầy sao" của họa sĩ Van Gogh, đây là một trong các tác phẩm em vô cùng yêu thích của họa sĩ Van Gogh. Để tạo ra một bầu trời êm ái dễ nhìn khi nhà tuyển dụng đọc vào ban đêm. Về các hình ảnh có trong phần Projects, như em đã trình bày trước đó. Nó được tạo ra bằng công cụ Dreamina AI.
 # Giai đoạn 1: Lên ý tưởng.
-- Ý tưởng ban đầu: Là một website porfolio thông thường, nhưng em lại muốn nó mang theo màu sắc và sở thích của em. Đó là Capybara(Chuột lang nước), chắc không ai mà không biết tới sự dễ thương và tài ngoại giao của giống loài chuột nước này. Em rất yêu thích các chú chuột lang nước vì vẻ mặt vô tri và lạc quan tới mắc cười. Và em rất thích các tác phẩm của họa sĩ Van Gogh (các tác phẩm điển hình của ông là: tám bức tranh hoa hướng dương, bầu trời đầy sao,...). Đó là lý do vì sao em lại muốn thực hiện hóa hai sở thích ấy vào trong một website do mình tự tạo. 
+  Ý tưởng ban đầu: Là một website porfolio thông thường, nhưng em lại muốn nó mang theo màu sắc và sở thích của em. Đó là Capybara(Chuột lang nước), chắc không ai mà không biết tới sự dễ thương và tài ngoại giao của giống loài chuột nước này. Em rất yêu thích các chú chuột lang nước vì vẻ mặt vô tri và lạc quan tới mắc cười. Và em rất thích các tác phẩm của họa sĩ Van Gogh (các tác phẩm điển hình của ông là: tám bức tranh hoa hướng dương, bầu trời đầy sao,...). Đó là lý do vì sao em lại muốn thực hiện hóa hai sở thích ấy vào trong một website do mình tự tạo. 
 # Giai đoạn 2: Thực hiện tạo website 
   kêu chatgpt viết một bộ prompt như sau: bạn là một chuyên gia về UI/UX, hãy tạo cho tôi một portfolio chuyên nghiệp bao gồm Html + csss. Brightness mode đựa vào 3 màu chủ đạo này#F8DED3 , #FDC5B8 , #DEA5AE. Dark mode dựa vào 3 màu chủ đạo này #183282 , #6C9EB3 , #FCE997, có nút thay đổi theme ở đầu trang. Tagline: “Thiết kế trải nghiệm đơn giản, tỏa sáng khí chất riêng.”. About Me: Nguyễn Minh Cảnh, là một sinh viên tại trường GDU, hiện đang học năm 2 của nghành CNNT - Đồ Họa Kỹ Thuật Số, số điện thoại 09874634528 và ngày sinh (28.08.06). Tôi đang tập trung vào một dự án thiết kế UI/UX và game. Skill: Design (Figma, Photoshop, AI), sáng tạo nội dung. Dự án: Thiết kế Bookmark, in 3D, tại phần này tôi muốn bạn tạo ra album ảnh để trưng bày sản phẩm hay dự án. Hobbies: đá banh và đi xem phim, chơi game, nấu ăn. Contact Me: email (nguyencanh0392751543), số điện thoại 09874634528, thêm khung để nhập email và số điện thoại vào phần contact, để tôi có thể nhận và liên hệ với họ. Thêm hiệu ứng hover và chuyển động như trang web https://jomor-design-2019.webflow.io/. Hãy tạo cho tôi một bộ prompt để argent có thể thiết kế ra website như vậy. Và có được bộ prompt này:
 
@@ -357,11 +357,12 @@ Em dùng tới figma AI để tối ưu lại phần thiết kế UI/UX, theo c�
 ![alt text](<images/UI UX.png>)
 
 # Giai đoạn 4: Thay đổi bổ sung bộ prompt.
-Sau khi dung Figma AI để tối ưu cho UI/UX, em dùng chat để viết prompt bổ sung như sau
-tôi muốn bạn viết lại bộ prompt, thay đổi chế độ sáng dựa trên ba màu cơ bản: #6FAF5F, #3F6B3A, #D9C46B. Chế độ tối dựa trên ba màu cơ bản: #183282, #6C9EB3, #FCE997. Thêm hình minh họa và hình ảnh chuột lang nước chibi với các biểu cảm khác nhau (vui vẻ, buồn ngủ, uể oải). và giữ lại các thông tin cá nhân, skills, projects, contact. Thêm Work Experience với các thông tin này (2024: Tốt nghiệp THPT và nhập học trường đại học GGDU, 2025: Tôi xin vào làm trong một studio sản xuất hoạt hình và làm bộ phận chỉnh sửa hậu kỳ, 2026: Dự định bản thân trong tương lai được làm việc trong một cty phim hoạt hình Việt Nam). Tôi muốn bạn phân tích bức ảnh UI/UX trên mà tôi đã dùng FIgma AI để tối ưu lại để viết prompt để argent có thể thiết kế ra website như vậy.
-Bộ Prompt: 
+  Sau khi dung Figma AI để tối ưu cho UI/UX, em dùng chat để viết prompt bổ sung như sau
+  tôi muốn bạn viết lại bộ prompt, thay đổi chế độ sáng dựa trên ba màu cơ bản: #6FAF5F, #3F6B3A, #D9C46B. Chế độ tối dựa trên ba màu cơ bản: #183282, #6C9EB3, #FCE997. Thêm hình minh họa và hình ảnh chuột lang nước chibi với các biểu cảm khác nhau (vui vẻ, buồn ngủ, uể oải). và giữ lại các thông tin cá nhân, skills, projects, contact. Thêm Work Experience với các thông tin này (2024: Tốt nghiệp THPT và nhập học trường đại học GGDU, 2025: Tôi xin vào làm trong một studio sản xuất hoạt hình và làm bộ phận chỉnh sửa hậu kỳ, 2026: Dự định bản thân trong tương lai được làm việc trong một cty phim hoạt hình Việt Nam). Tôi muốn bạn phân tích bức ảnh UI/UX trên mà tôi đã dùng FIgma AI để tối ưu lại để viết prompt để argent có thể thiết kế ra website như vậy.
+  Bộ Prompt: 
 Create a premium modern portfolio website inspired by the UI/UX layout shown in the attached reference image.
 
+![alt text](<Screenshot 2026-05-14 164838.png>)
 ⚠️ IMPORTANT:
 Do NOT copy the exact layout.
 Use it only as inspiration for:
@@ -773,1023 +774,353 @@ Add:
 The final website should feel like a premium artistic UI/UX portfolio with cozy capybara personality, modern motion design, smooth interaction, and a professional creative identity.
 Enhance the existing portfolio website by adding advanced image gallery interactions, horizontal image presentation layouts, floating bubble-image decorations, and a custom footer inspired by the provided UI references.
 
-⚠️ IMPORTANT:
-The new features must match the current soft UI/UX aesthetic:
-
-* calm
-* organic
-* artistic
-* premium
-* interactive
-
-The website should feel like:
-
-* a modern Behance portfolio
-* a creative designer showcase
-* an experimental Webflow UI
-
-━━━━━━━━━━━━━━━━━━━
-🖼 ADVANCED PROJECT IMAGE SYSTEM
-━━━━━━━━━━━━━━━━━━━
-
-Upgrade the project gallery section into a premium interactive image showcase.
-
-Requirements:
-
-* Horizontal image presentation
-* Multi-image preview strips
-* Image slider/gallery system
-* Hover interactions
-* Fullscreen modal preview
-
-━━━━━━━━━━━━━━━━━━━
-📸 HORIZONTAL IMAGE LAYOUT
-━━━━━━━━━━━━━━━━━━━
-
-Inside each project card:
-
-Display images in:
-
-* horizontal collage layout
-* side-by-side image strips
-* asymmetrical grid compositions
-
-Example:
-
-* 3 horizontal preview images per card
-* First image larger
-* Remaining images smaller
-
-Layout style:
-
-* modern editorial gallery
-* Behance showcase style
-* soft rounded corners
-
-Use:
-
-* object-fit: cover
-* consistent aspect ratios
-* responsive image scaling
-
-━━━━━━━━━━━━━━━━━━━
-✨ PROJECT CARD INTERACTIONS
-━━━━━━━━━━━━━━━━━━━
-
-Each project card should include:
-
-* Hover image zoom
-* Overlay fade effect
-* Floating shadow movement
-* Smooth border glow
-* Hover lift animation
-
-Overlay content:
-
-* Project title
-* Category
-* Image count badge
-
-Example badge:
-“3 images”
-
-Badge style:
-
-* rounded capsule
-* semi-transparent glassmorphism
-* soft shadow
-
-━━━━━━━━━━━━━━━━━━━
-🪟 FULLSCREEN IMAGE MODAL
-━━━━━━━━━━━━━━━━━━━
-
-When clicking a project:
-
-Open a fullscreen modal gallery.
-
-Features:
-
-* Large centered image
-* Previous / next navigation
-* Smooth image transitions
-* Dark blurred background
-* Rounded modal corners
-
-Add:
-
-* Image counter
-* Progress indicator
-* Animated slider dots
-
-Navigation buttons:
-
-* Circular buttons
-* Soft shadow
-* Hover scaling
-* Minimal UI
-
-Modal animation:
-
-* fade-in
-* scale transition
-* smooth blur appearance
-
-━━━━━━━━━━━━━━━━━━━
-🫧 FLOATING BUBBLE IMAGE SYSTEM
-━━━━━━━━━━━━━━━━━━━
-
-Create decorative floating bubble elements throughout the background.
-
-⚠️ IMPORTANT:
-The bubbles should contain images inside them.
-
-Use:
-
-* capybara images
-* project thumbnails
-* tiny illustration previews
-
-━━━━━━━━━━━━━━━━━━━
-🫧 BUBBLE DESIGN STYLE
-━━━━━━━━━━━━━━━━━━━
-
-Bubble appearance:
-
-* soft transparent circles
-* blurred edges
-* glow effect
-* floating movement
-* layered depth
-
-Inside bubbles:
-
-* cropped circular images
-* soft opacity
-* subtle blur
-
-Bubble sizes:
-
-* small
-* medium
-* large
-
-Randomly distribute bubbles around:
-
-* hero section
-* project section
-* background corners
-* page edges
-
-━━━━━━━━━━━━━━━━━━━
-✨ BUBBLE ANIMATIONS
-━━━━━━━━━━━━━━━━━━━
-
-Bubble movement should feel:
-
-* slow
-* organic
-* dreamy
-* lightweight
-
-Add:
-
-* floating animation
-* gentle drifting
-* scale pulsing
-* opacity shifting
-
-Use:
-
-* CSS keyframes
-* subtle transform animations
-
-Avoid:
-
-* fast motion
-* distracting movement
-
-━━━━━━━━━━━━━━━━━━━
-🌿 BACKGROUND ATMOSPHERE
-━━━━━━━━━━━━━━━━━━━
-
-Enhance the background using:
-
-* soft green glow gradients
-* blurred organic shapes
-* layered transparent circles
-* nature-inspired lighting
-
-Create depth using:
-
-* z-index layering
-* backdrop blur
-* glow opacity
-
-The page should feel:
-
-* alive
-* breathable
-* artistic
-* cozy
-
-━━━━━━━━━━━━━━━━━━━
-🖼 IMAGE SOURCES
-━━━━━━━━━━━━━━━━━━━
-
-Load all project images and bubble images from:
-`/images/`
-
-Examples:
-
-* /images/bookmark-1.jpg
-* /images/game2d-1.jpg
-* /images/capy-happy.png
-* /images/capy-sleepy.png
-
-Use:
-
-* lazy loading
-* optimized rendering
-* responsive image handling
-
-━━━━━━━━━━━━━━━━━━━
-🦫 CAPYBARA VISUAL SYSTEM
-━━━━━━━━━━━━━━━━━━━
-
-Add chibi capybara illustrations across the website.
-
-Expressions:
-
-* happy
-* sleepy
-* tired
-
-Use them:
-
-* inside floating bubbles
-* hero section decorations
-* hover illustrations
-* empty space fillers
-
-Style:
-
-* cute
-* soft
-* hand-drawn feeling
-* warm personality
-
-━━━━━━━━━━━━━━━━━━━
-📍 FOOTER SECTION
-━━━━━━━━━━━━━━━━━━━
-
-At the bottom of the page, add a premium footer line:
-
-“© By Cappy_Boiz 2026. Trường Đại Học GDU”
-
-Footer style:
-
-* centered text
-* soft opacity
-* minimal typography
-* subtle separator line
-
-Add:
-
-* fade-in animation
-* hover glow on text
-* smooth spacing
-
-Dark mode:
-
-* cream/light text
-* subtle glow
-* maintain readability
-
-━━━━━━━━━━━━━━━━━━━
-✨ UI/UX STYLE REQUIREMENTS
-━━━━━━━━━━━━━━━━━━━
-
-The final interaction system should feel:
-
-* premium
-* modern
-* soft
-* cinematic
-* creative
-
-Inspired by:
-
-* Webflow interactive portfolios
-* Behance featured galleries
-* Apple soft UI
-* Editorial showcase websites
-
-━━━━━━━━━━━━━━━━━━━
-⚙️ TECHNICAL REQUIREMENTS
-━━━━━━━━━━━━━━━━━━━
-
-* HTML + CSS + JavaScript
-* Responsive design
-* CSS variables
-* Optimized animations
-* Semantic HTML
-* Smooth transitions
-* Organized code structure
-
-Use:
-
-* CSS Grid
-* Flexbox
-* Keyframe animations
-* Backdrop-filter blur
-* Transform transitions
-
-⚠️ FINAL GOAL:
-The website should feel like a living artistic portfolio with floating visual storytelling, interactive image galleries, soft motion design, and a unique capybara-themed personality.
-Enhance the existing portfolio website by adding advanced image gallery interactions, horizontal image presentation layouts, floating bubble-image decorations, and a custom footer inspired by the provided UI references.
-
-⚠️ IMPORTANT:
-The new features must match the current soft UI/UX aesthetic:
-
-* calm
-* organic
-* artistic
-* premium
-* interactive
-
-The website should feel like:
-
-* a modern Behance portfolio
-* a creative designer showcase
-* an experimental Webflow UI
-
-━━━━━━━━━━━━━━━━━━━
-🖼 ADVANCED PROJECT IMAGE SYSTEM
-━━━━━━━━━━━━━━━━━━━
-
-Upgrade the project gallery section into a premium interactive image showcase.
-
-Requirements:
-
-* Horizontal image presentation
-* Multi-image preview strips
-* Image slider/gallery system
-* Hover interactions
-* Fullscreen modal preview
-
-━━━━━━━━━━━━━━━━━━━
-📸 HORIZONTAL IMAGE LAYOUT
-━━━━━━━━━━━━━━━━━━━
-
-Inside each project card:
-
-Display images in:
-
-* horizontal collage layout
-* side-by-side image strips
-* asymmetrical grid compositions
-
-Example:
-
-* 3 horizontal preview images per card
-* First image larger
-* Remaining images smaller
-
-Layout style:
-
-* modern editorial gallery
-* Behance showcase style
-* soft rounded corners
-
-Use:
-
-* object-fit: cover
-* consistent aspect ratios
-* responsive image scaling
-
-━━━━━━━━━━━━━━━━━━━
-✨ PROJECT CARD INTERACTIONS
-━━━━━━━━━━━━━━━━━━━
-
-Each project card should include:
-
-* Hover image zoom
-* Overlay fade effect
-* Floating shadow movement
-* Smooth border glow
-* Hover lift animation
-
-Overlay content:
-
-* Project title
-* Category
-* Image count badge
-
-Example badge:
-“3 images”
-
-Badge style:
-
-* rounded capsule
-* semi-transparent glassmorphism
-* soft shadow
-
-━━━━━━━━━━━━━━━━━━━
-🪟 FULLSCREEN IMAGE MODAL
-━━━━━━━━━━━━━━━━━━━
-
-When clicking a project:
-
-Open a fullscreen modal gallery.
-
-Features:
-
-* Large centered image
-* Previous / next navigation
-* Smooth image transitions
-* Dark blurred background
-* Rounded modal corners
-
-Add:
-
-* Image counter
-* Progress indicator
-* Animated slider dots
-
-Navigation buttons:
-
-* Circular buttons
-* Soft shadow
-* Hover scaling
-* Minimal UI
-
-Modal animation:
-
-* fade-in
-* scale transition
-* smooth blur appearance
-
-━━━━━━━━━━━━━━━━━━━
-🫧 FLOATING BUBBLE IMAGE SYSTEM
-━━━━━━━━━━━━━━━━━━━
-
-Create decorative floating bubble elements throughout the background.
-
-⚠️ IMPORTANT:
-The bubbles should contain images inside them.
-
-Use:
-
-* capybara images
-* project thumbnails
-* tiny illustration previews
-
-━━━━━━━━━━━━━━━━━━━
-🫧 BUBBLE DESIGN STYLE
-━━━━━━━━━━━━━━━━━━━
-
-Bubble appearance:
-
-* soft transparent circles
-* blurred edges
-* glow effect
-* floating movement
-* layered depth
-
-Inside bubbles:
-
-* cropped circular images
-* soft opacity
-* subtle blur
-
-Bubble sizes:
-
-* small
-* medium
-* large
-
-Randomly distribute bubbles around:
-
-* hero section
-* project section
-* background corners
-* page edges
-
-━━━━━━━━━━━━━━━━━━━
-✨ BUBBLE ANIMATIONS
-━━━━━━━━━━━━━━━━━━━
-
-Bubble movement should feel:
-
-* slow
-* organic
-* dreamy
-* lightweight
-
-Add:
-
-* floating animation
-* gentle drifting
-* scale pulsing
-* opacity shifting
-
-Use:
-
-* CSS keyframes
-* subtle transform animations
-
-Avoid:
-
-* fast motion
-* distracting movement
-
-━━━━━━━━━━━━━━━━━━━
-🌿 BACKGROUND ATMOSPHERE
-━━━━━━━━━━━━━━━━━━━
-
-Enhance the background using:
-
-* soft green glow gradients
-* blurred organic shapes
-* layered transparent circles
-* nature-inspired lighting
-
-Create depth using:
-
-* z-index layering
-* backdrop blur
-* glow opacity
-
-The page should feel:
-
-* alive
-* breathable
-* artistic
-* cozy
-
-━━━━━━━━━━━━━━━━━━━
-🖼 IMAGE SOURCES
-━━━━━━━━━━━━━━━━━━━
-
-Load all project images and bubble images from:
-`/images/`
-
-Examples:
-
-* /images/bookmark-1.jpg
-* /images/game2d-1.jpg
-* /images/capy-happy.png
-* /images/capy-sleepy.png
-
-Use:
-
-* lazy loading
-* optimized rendering
-* responsive image handling
-
-━━━━━━━━━━━━━━━━━━━
-🦫 CAPYBARA VISUAL SYSTEM
-━━━━━━━━━━━━━━━━━━━
-
-Add chibi capybara illustrations across the website.
-
-Expressions:
-
-* happy
-* sleepy
-* tired
-
-Use them:
-
-* inside floating bubbles
-* hero section decorations
-* hover illustrations
-* empty space fillers
-
-Style:
-
-* cute
-* soft
-* hand-drawn feeling
-* warm personality
-
-━━━━━━━━━━━━━━━━━━━
-📍 FOOTER SECTION
-━━━━━━━━━━━━━━━━━━━
-
-At the bottom of the page, add a premium footer line:
-
-“© By Cappy_Boiz 2026. Trường Đại Học GDU”
-
-Footer style:
-
-* centered text
-* soft opacity
-* minimal typography
-* subtle separator line
-
-Add:
-
-* fade-in animation
-* hover glow on text
-* smooth spacing
-
-Dark mode:
-
-* cream/light text
-* subtle glow
-* maintain readability
-
-━━━━━━━━━━━━━━━━━━━
-✨ UI/UX STYLE REQUIREMENTS
-━━━━━━━━━━━━━━━━━━━
-
-The final interaction system should feel:
-
-* premium
-* modern
-* soft
-* cinematic
-* creative
-
-Inspired by:
-
-* Webflow interactive portfolios
-* Behance featured galleries
-* Apple soft UI
-* Editorial showcase websites
-
-━━━━━━━━━━━━━━━━━━━
-⚙️ TECHNICAL REQUIREMENTS
-━━━━━━━━━━━━━━━━━━━
-
-* HTML + CSS + JavaScript
-* Responsive design
-* CSS variables
-* Optimized animations
-* Semantic HTML
-* Smooth transitions
-* Organized code structure
-
-Use:
-
-* CSS Grid
-* Flexbox
-* Keyframe animations
-* Backdrop-filter blur
-* Transform transitions
-
-⚠️ FINAL GOAL:
-The website should feel like a living artistic portfolio with floating visual storytelling, interactive image galleries, soft motion design, and a unique capybara-themed personality.
-![alt text](<Screenshot 2026-05-14 164838.png>)
-
-Tiếp đến em nhờ chat GPT thay đổi theo các chức năng hình ảnh, hiệu ứng mà em đã dùng Figma tối ưu: 
-Tôi muốn bạn phân tích các chức năng thêm hình ảnh, trình bày ảnh theo dạng ngang và các hiệu ứng bong bóng có chức năng chứa hình ảnh ở nền trang web. Từ đó hãy giúp tôi viết prompt bổ sung các chức năng ấy. Hãy viết prompt để argent có thể thiết kế ra website như vậy.
-
-Bộ Prompt: 
-Enhance the existing portfolio website by adding advanced image gallery interactions, horizontal image presentation layouts, floating bubble-image decorations, and a custom footer inspired by the provided UI references.
-
-⚠️ IMPORTANT:
-The new features must match the current soft UI/UX aesthetic:
-
-* calm
-* organic
-* artistic
-* premium
-* interactive
-
-The website should feel like:
-
-* a modern Behance portfolio
-* a creative designer showcase
-* an experimental Webflow UI
-
-━━━━━━━━━━━━━━━━━━━
-🖼 ADVANCED PROJECT IMAGE SYSTEM
-━━━━━━━━━━━━━━━━━━━
-
-Upgrade the project gallery section into a premium interactive image showcase.
-
-Requirements:
-
-* Horizontal image presentation
-* Multi-image preview strips
-* Image slider/gallery system
-* Hover interactions
-* Fullscreen modal preview
-
-━━━━━━━━━━━━━━━━━━━
-📸 HORIZONTAL IMAGE LAYOUT
-━━━━━━━━━━━━━━━━━━━
-
-Inside each project card:
-
-Display images in:
-
-* horizontal collage layout
-* side-by-side image strips
-* asymmetrical grid compositions
-
-Example:
-
-* 3 horizontal preview images per card
-* First image larger
-* Remaining images smaller
-
-Layout style:
-
-* modern editorial gallery
-* Behance showcase style
-* soft rounded corners
-
-Use:
-
-* object-fit: cover
-* consistent aspect ratios
-* responsive image scaling
-
-━━━━━━━━━━━━━━━━━━━
-✨ PROJECT CARD INTERACTIONS
-━━━━━━━━━━━━━━━━━━━
-
-Each project card should include:
-
-* Hover image zoom
-* Overlay fade effect
-* Floating shadow movement
-* Smooth border glow
-* Hover lift animation
-
-Overlay content:
-
-* Project title
-* Category
-* Image count badge
-
-Example badge:
-“3 images”
-
-Badge style:
-
-* rounded capsule
-* semi-transparent glassmorphism
-* soft shadow
-
-━━━━━━━━━━━━━━━━━━━
-🪟 FULLSCREEN IMAGE MODAL
-━━━━━━━━━━━━━━━━━━━
-
-When clicking a project:
-
-Open a fullscreen modal gallery.
-
-Features:
-
-* Large centered image
-* Previous / next navigation
-* Smooth image transitions
-* Dark blurred background
-* Rounded modal corners
-
-Add:
-
-* Image counter
-* Progress indicator
-* Animated slider dots
-
-Navigation buttons:
-
-* Circular buttons
-* Soft shadow
-* Hover scaling
-* Minimal UI
-
-Modal animation:
-
-* fade-in
-* scale transition
-* smooth blur appearance
-
-━━━━━━━━━━━━━━━━━━━
-🫧 FLOATING BUBBLE IMAGE SYSTEM
-━━━━━━━━━━━━━━━━━━━
-
-Create decorative floating bubble elements throughout the background.
-
-⚠️ IMPORTANT:
-The bubbles should contain images inside them.
-
-Use:
-
-* capybara images
-* project thumbnails
-* tiny illustration previews
-
-━━━━━━━━━━━━━━━━━━━
-🫧 BUBBLE DESIGN STYLE
-━━━━━━━━━━━━━━━━━━━
-
-Bubble appearance:
-
-* soft transparent circles
-* blurred edges
-* glow effect
-* floating movement
-* layered depth
-
-Inside bubbles:
-
-* cropped circular images
-* soft opacity
-* subtle blur
-
-Bubble sizes:
-
-* small
-* medium
-* large
-
-Randomly distribute bubbles around:
-
-* hero section
-* project section
-* background corners
-* page edges
-
-━━━━━━━━━━━━━━━━━━━
-✨ BUBBLE ANIMATIONS
-━━━━━━━━━━━━━━━━━━━
-
-Bubble movement should feel:
-
-* slow
-* organic
-* dreamy
-* lightweight
-
-Add:
-
-* floating animation
-* gentle drifting
-* scale pulsing
-* opacity shifting
-
-Use:
-
-* CSS keyframes
-* subtle transform animations
-
-Avoid:
-
-* fast motion
-* distracting movement
-
-━━━━━━━━━━━━━━━━━━━
-🌿 BACKGROUND ATMOSPHERE
-━━━━━━━━━━━━━━━━━━━
-
-Enhance the background using:
-
-* soft green glow gradients
-* blurred organic shapes
-* layered transparent circles
-* nature-inspired lighting
-
-Create depth using:
-
-* z-index layering
-* backdrop blur
-* glow opacity
-
-The page should feel:
-
-* alive
-* breathable
-* artistic
-* cozy
-
-━━━━━━━━━━━━━━━━━━━
-🖼 IMAGE SOURCES
-━━━━━━━━━━━━━━━━━━━
-
-Load all project images and bubble images from:
-`/images/`
-
-Examples:
-
-* /images/bookmark-1.jpg
-* /images/game2d-1.jpg
-* /images/capy-happy.png
-* /images/capy-sleepy.png
-
-Use:
-
-* lazy loading
-* optimized rendering
-* responsive image handling
-
-━━━━━━━━━━━━━━━━━━━
-🦫 CAPYBARA VISUAL SYSTEM
-━━━━━━━━━━━━━━━━━━━
-
-Add chibi capybara illustrations across the website.
-
-Expressions:
-
-* happy
-* sleepy
-* tired
-
-Use them:
-
-* inside floating bubbles
-* hero section decorations
-* hover illustrations
-* empty space fillers
-
-Style:
-
-* cute
-* soft
-* hand-drawn feeling
-* warm personality
-
-━━━━━━━━━━━━━━━━━━━
-📍 FOOTER SECTION
-━━━━━━━━━━━━━━━━━━━
-
-At the bottom of the page, add a premium footer line:
-
-“© By Cappy_Boiz 2026. Trường Đại Học GDU”
-
-Footer style:
-
-* centered text
-* soft opacity
-* minimal typography
-* subtle separator line
-
-Add:
-
-* fade-in animation
-* hover glow on text
-* smooth spacing
-
-Dark mode:
-
-* cream/light text
-* subtle glow
-* maintain readability
-
-━━━━━━━━━━━━━━━━━━━
-✨ UI/UX STYLE REQUIREMENTS
-━━━━━━━━━━━━━━━━━━━
-
-The final interaction system should feel:
-
-* premium
-* modern
-* soft
-* cinematic
-* creative
-
-Inspired by:
-
-* Webflow interactive portfolios
-* Behance featured galleries
-* Apple soft UI
-* Editorial showcase websites
-
-━━━━━━━━━━━━━━━━━━━
-⚙️ TECHNICAL REQUIREMENTS
-━━━━━━━━━━━━━━━━━━━
-
-* HTML + CSS + JavaScript
-* Responsive design
-* CSS variables
-* Optimized animations
-* Semantic HTML
-* Smooth transitions
-* Organized code structure
-
-Use:
-
-* CSS Grid
-* Flexbox
-* Keyframe animations
-* Backdrop-filter blur
-* Transform transitions
-
-⚠️ FINAL GOAL:
-The website should feel like a living artistic portfolio with floating visual storytelling, interactive image galleries, soft motion design, and a unique capybara-themed personality.
+  Tiếp đến em nhờ chat GPT thay đổi theo các chức năng hình ảnh, hiệu ứng mà em đã dùng Figma tối ưu: 
+  Tôi muốn bạn phân tích các chức năng thêm hình ảnh, trình bày ảnh theo dạng ngang và các hiệu ứng bong bóng có chức năng chứa hình ảnh ở nền trang web. Từ đó hãy giúp tôi viết prompt bổ sung các chức năng ấy. Hãy viết prompt để argent có thể thiết kế ra website như vậy.
 ![alt text](<Screenshot 2026-05-14 165837.png>)
 ![alt text](<Screenshot 2026-05-14 165748.png>)
 
-Yêu cầu chat GPT thay đổi:
-ở mục UI/UX Designer Student ngay hình Avatar, tôi muốn xóa hết các hình ảnh nhỏ ở đó. Tăng thêm số lượng hiệu ứng bong bóng nhỏ mờ trôi nổi và thêm các hình Capy1.jpg, Capy2.jpg, Capy3.jpg, Capy4.jpg, Capy5.jpg, Capy6.jpg theo kích thước phù hợp với hiệu ứng bong bóng.
+  Bộ Prompt: 
+Enhance the existing portfolio website by adding advanced image gallery interactions, horizontal image presentation layouts, floating bubble-image decorations, and a custom footer inspired by the provided UI references.
+
+⚠️ IMPORTANT:
+The new features must match the current soft UI/UX aesthetic:
+
+* calm
+* organic
+* artistic
+* premium
+* interactive
+
+The website should feel like:
+
+* a modern Behance portfolio
+* a creative designer showcase
+* an experimental Webflow UI
+
+━━━━━━━━━━━━━━━━━━━
+🖼 ADVANCED PROJECT IMAGE SYSTEM
+━━━━━━━━━━━━━━━━━━━
+
+Upgrade the project gallery section into a premium interactive image showcase.
+
+Requirements:
+
+* Horizontal image presentation
+* Multi-image preview strips
+* Image slider/gallery system
+* Hover interactions
+* Fullscreen modal preview
+
+━━━━━━━━━━━━━━━━━━━
+📸 HORIZONTAL IMAGE LAYOUT
+━━━━━━━━━━━━━━━━━━━
+
+Inside each project card:
+
+Display images in:
+
+* horizontal collage layout
+* side-by-side image strips
+* asymmetrical grid compositions
+
+Example:
+
+* 3 horizontal preview images per card
+* First image larger
+* Remaining images smaller
+
+Layout style:
+
+* modern editorial gallery
+* Behance showcase style
+* soft rounded corners
+
+Use:
+
+* object-fit: cover
+* consistent aspect ratios
+* responsive image scaling
+
+━━━━━━━━━━━━━━━━━━━
+✨ PROJECT CARD INTERACTIONS
+━━━━━━━━━━━━━━━━━━━
+
+Each project card should include:
+
+* Hover image zoom
+* Overlay fade effect
+* Floating shadow movement
+* Smooth border glow
+* Hover lift animation
+
+Overlay content:
+
+* Project title
+* Category
+* Image count badge
+
+Example badge:
+“3 images”
+
+Badge style:
+
+* rounded capsule
+* semi-transparent glassmorphism
+* soft shadow
+
+━━━━━━━━━━━━━━━━━━━
+🪟 FULLSCREEN IMAGE MODAL
+━━━━━━━━━━━━━━━━━━━
+
+When clicking a project:
+
+Open a fullscreen modal gallery.
+
+Features:
+
+* Large centered image
+* Previous / next navigation
+* Smooth image transitions
+* Dark blurred background
+* Rounded modal corners
+
+Add:
+
+* Image counter
+* Progress indicator
+* Animated slider dots
+
+Navigation buttons:
+
+* Circular buttons
+* Soft shadow
+* Hover scaling
+* Minimal UI
+
+Modal animation:
+
+* fade-in
+* scale transition
+* smooth blur appearance
+
+━━━━━━━━━━━━━━━━━━━
+🫧 FLOATING BUBBLE IMAGE SYSTEM
+━━━━━━━━━━━━━━━━━━━
+
+Create decorative floating bubble elements throughout the background.
+
+⚠️ IMPORTANT:
+The bubbles should contain images inside them.
+
+Use:
+
+* capybara images
+* project thumbnails
+* tiny illustration previews
+
+━━━━━━━━━━━━━━━━━━━
+🫧 BUBBLE DESIGN STYLE
+━━━━━━━━━━━━━━━━━━━
+
+Bubble appearance:
+
+* soft transparent circles
+* blurred edges
+* glow effect
+* floating movement
+* layered depth
+
+Inside bubbles:
+
+* cropped circular images
+* soft opacity
+* subtle blur
+
+Bubble sizes:
+
+* small
+* medium
+* large
+
+Randomly distribute bubbles around:
+
+* hero section
+* project section
+* background corners
+* page edges
+
+━━━━━━━━━━━━━━━━━━━
+✨ BUBBLE ANIMATIONS
+━━━━━━━━━━━━━━━━━━━
+
+Bubble movement should feel:
+
+* slow
+* organic
+* dreamy
+* lightweight
+
+Add:
+
+* floating animation
+* gentle drifting
+* scale pulsing
+* opacity shifting
+
+Use:
+
+* CSS keyframes
+* subtle transform animations
+
+Avoid:
+
+* fast motion
+* distracting movement
+
+━━━━━━━━━━━━━━━━━━━
+🌿 BACKGROUND ATMOSPHERE
+━━━━━━━━━━━━━━━━━━━
+
+Enhance the background using:
+
+* soft green glow gradients
+* blurred organic shapes
+* layered transparent circles
+* nature-inspired lighting
+
+Create depth using:
+
+* z-index layering
+* backdrop blur
+* glow opacity
+
+The page should feel:
+
+* alive
+* breathable
+* artistic
+* cozy
+
+━━━━━━━━━━━━━━━━━━━
+🖼 IMAGE SOURCES
+━━━━━━━━━━━━━━━━━━━
+
+Load all project images and bubble images from:
+`/images/`
+
+Examples:
+
+* /images/bookmark-1.jpg
+* /images/game2d-1.jpg
+* /images/capy-happy.png
+* /images/capy-sleepy.png
+
+Use:
+
+* lazy loading
+* optimized rendering
+* responsive image handling
+
+━━━━━━━━━━━━━━━━━━━
+🦫 CAPYBARA VISUAL SYSTEM
+━━━━━━━━━━━━━━━━━━━
+
+Add chibi capybara illustrations across the website.
+
+Expressions:
+
+* happy
+* sleepy
+* tired
+
+Use them:
+
+* inside floating bubbles
+* hero section decorations
+* hover illustrations
+* empty space fillers
+
+Style:
+
+* cute
+* soft
+* hand-drawn feeling
+* warm personality
+
+━━━━━━━━━━━━━━━━━━━
+📍 FOOTER SECTION
+━━━━━━━━━━━━━━━━━━━
+
+At the bottom of the page, add a premium footer line:
+
+“© By Cappy_Boiz 2026. Trường Đại Học GDU”
+
+Footer style:
+
+* centered text
+* soft opacity
+* minimal typography
+* subtle separator line
+
+Add:
+
+* fade-in animation
+* hover glow on text
+* smooth spacing
+
+Dark mode:
+
+* cream/light text
+* subtle glow
+* maintain readability
+
+━━━━━━━━━━━━━━━━━━━
+✨ UI/UX STYLE REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━
+
+The final interaction system should feel:
+
+* premium
+* modern
+* soft
+* cinematic
+* creative
+
+Inspired by:
+
+* Webflow interactive portfolios
+* Behance featured galleries
+* Apple soft UI
+* Editorial showcase websites
+
+━━━━━━━━━━━━━━━━━━━
+⚙️ TECHNICAL REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━
+
+* HTML + CSS + JavaScript
+* Responsive design
+* CSS variables
+* Optimized animations
+* Semantic HTML
+* Smooth transitions
+* Organized code structure
+
+Use:
+
+* CSS Grid
+* Flexbox
+* Keyframe animations
+* Backdrop-filter blur
+* Transform transitions
+
+⚠️ FINAL GOAL:
+The website should feel like a living artistic portfolio with floating visual storytelling, interactive image galleries, soft motion design, and a unique capybara-themed personality.
+
+  Yêu cầu chat GPT thay đổi:
+  Ở mục UI/UX Designer Student ngay hình Avatar, tôi muốn xóa hết các hình ảnh nhỏ ở đó. Tăng thêm số lượng hiệu ứng bong bóng nhỏ mờ trôi nổi và thêm các hình Capy1.jpg, Capy2.jpg, Capy3.jpg, Capy4.jpg, Capy5.jpg, Capy6.jpg theo kích thước phù hợp với hiệu ứng bong bóng.
 ![alt text](<Screenshot 2026-05-14 171457.png>)
 
-Bộ Prompt:
+  Bộ Prompt:
 Update the Hero section and floating bubble system of the portfolio website.
 
 ⚠️ IMPORTANT:
@@ -2152,7 +1483,8 @@ Optional:
 The bubbles should become elegant atmospheric decorations that frame the website from the sides instead of interrupting the content in the center.
 ![alt text](<Screenshot 2026-05-14 181706.png>)
 
-Yêu cầu chat GPT: Viết prompt bổ sung thêm phần project (game 2D, website interface design). Bổ sung Skill (Premier). Đổi font chữ hiện tại thành Font việt hóa Alberto Regular: Hãy tạo cho tôi một bộ prompt để argent có thể thiết kế ra website như vậy.
+  Yêu cầu chat GPT: Viết prompt bổ sung thêm phần project (game 2D, website interface design). Bổ sung Skill (Premier). Đổi font chữ hiện tại thành Font việt hóa Alberto Regular: Hãy tạo cho tôi một bộ prompt để argent có thể thiết kế ra website như vậy.
+  Bộ Prompt:
 Enhance the existing portfolio website by adding new projects, updating the skills section, and changing the typography system.
 
 ━━━━━━━━━━━━━━━━━━━
@@ -2340,8 +1672,8 @@ Inspired by:
 ⚠️ IMPORTANT:
 The portfolio should feel like a modern creative designer showcase with premium UI/UX presentation and smooth interaction design.
 
-Yêu cầu chat bổ sung thêm tính năng để thay đổi hình ảnh hiển thị của phần project thành ảnh Design mà tôi đã drop vào thư mục images của github. Hãy tạo cho tôi một bộ prompt để argent có thể thiết kế ra website như vậy.
-
+  Yêu cầu chat bổ sung thêm tính năng để thay đổi hình ảnh hiển thị của phần project thành ảnh Design mà tôi đã drop vào thư mục images của github. Hãy tạo cho tôi một bộ prompt để argent có thể thiết kế ra website như vậy.
+  Bộ Prompt:
 Update the existing portfolio website project gallery to use the design images that were uploaded into the GitHub "images" folder.
 
 ⚠️ IMPORTANT:
@@ -2468,10 +1800,10 @@ Use:
 The uploaded images should feel like premium showcase assets inside a professional UI/UX portfolio, not like a simple image dump.
 
 # Giai đoạn 5: Tạo ảnh bằng Dreamina AI.
-Em đã sử dụng công cụ Dreamina AI tạo ảnh và thay thế chúng. Ngoài ra, em yêu cầu VS Code thêm hiệu ứng rơi trên nền trang web để tăng sự hút cho CV.
+  Em đã sử dụng công cụ Dreamina AI tạo ảnh và thay thế chúng. Ngoài ra, em yêu cầu VS Code thêm hiệu ứng rơi trên nền trang web để tăng sự hút cho CV.
 ![alt text](DreaminaAI.png). 
 # Giai đoạn 6: Hoàn thiện sản phẩm.
-Bằng các công cụ AI trợ giúp để thực hiện hóa Website theo ý tưởng của mình. Và đây là kết quả sản phẩm của em.
+  Bằng các công cụ AI trợ giúp để thực hiện hóa Website theo ý tưởng của mình. Và đây là kết quả sản phẩm của em.
 ![alt text](<Screenshot 2026-05-14 204457.png>) 
 ![alt text](<Screenshot 2026-05-14 204510.png>)
 ![alt text](<Screenshot 2026-05-14 204535.png>) 
