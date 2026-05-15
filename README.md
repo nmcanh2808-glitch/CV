@@ -1,8 +1,8 @@
 # Nguyễn Minh Cảnh
 # CV — Portfolio Website
-# Link video hướng dẫn thuyết minh: 
+# Link video hướng dẫn thuyết minh: https://drive.google.com/file/d/1tfm1YSTx1kgmkz6mJNrjrJJBw1bub4Zq/view?usp=drive_link
 # Link dự án GitHub: https://github.com/nmcanh2808-glitch/CV
-# Link trang web sản phẩm: 
+# Link trang web sản phẩm: https://nmcanh2808-glitch.github.io/CV/
 # Danh sách công cụ AI: 
 Em đã sử dụng trong bài: Chat GPT tạo prompt, Dreamina AI tạo hình ảnh, Figma AI tối ưu hóa UI/UX trang web.
 # Ý tưởng tổng thể: 
@@ -357,7 +357,7 @@ Em dùng tới figma AI để tối ưu lại phần thiết kế UI/UX, theo c�
 ![alt text](<images/UI UX.png>)
 
 # Giai đoạn 4: Thay đổi bổ sung bộ prompt.
-  Sau khi dung Figma AI để tối ưu cho UI/UX, em dùng chat để viết prompt bổ sung như sau
+  Sau khi dùng Figma AI để tối ưu cho UI/UX, em dùng chat để viết prompt bổ sung như sau
   tôi muốn bạn viết lại bộ prompt, thay đổi chế độ sáng dựa trên ba màu cơ bản: #6FAF5F, #3F6B3A, #D9C46B. Chế độ tối dựa trên ba màu cơ bản: #183282, #6C9EB3, #FCE997. Thêm hình minh họa và hình ảnh chuột lang nước chibi với các biểu cảm khác nhau (vui vẻ, buồn ngủ, uể oải). và giữ lại các thông tin cá nhân, skills, projects, contact. Thêm Work Experience với các thông tin này (2024: Tốt nghiệp THPT và nhập học trường đại học GGDU, 2025: Tôi xin vào làm trong một studio sản xuất hoạt hình và làm bộ phận chỉnh sửa hậu kỳ, 2026: Dự định bản thân trong tương lai được làm việc trong một cty phim hoạt hình Việt Nam). Tôi muốn bạn phân tích bức ảnh UI/UX trên mà tôi đã dùng FIgma AI để tối ưu lại để viết prompt để argent có thể thiết kế ra website như vậy.
   Bộ Prompt: 
 Create a premium modern portfolio website inspired by the UI/UX layout shown in the attached reference image.
